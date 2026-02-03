@@ -35,15 +35,18 @@ The project demonstrates the **complete ML workflow**:
 spam-email-detector/
 │
 ├── data/
-│ └── spam.csv
+│   └── spam.csv                # Dataset
 │
 ├── models/
-│ └── nb_spam_model.pkl
+│   └── nb_spam_model.pkl       # Trained ML model
 │
-├── train.py
-├── app.py
-├── requirements.txt
-└── README.md
+├── app.py                      # Streamlit web app
+├── train.py                    # Model training script
+├── requirements.txt            # Project dependencies
+├── README.md                   # Project documentation
+│
+├── .gitignore                  # Files to ignore in Git
+└── venv/                       # Virtual environment (NOT pushed to GitHub)
 
 
 ---
