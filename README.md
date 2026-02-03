@@ -30,28 +30,6 @@ The project demonstrates the **complete ML workflow**:
 
 ---
 
-## 📂 Project Structure  
-
-
-
-spam-email-detector/
-│
-├── data/
-│ └── spam.csv # Dataset
-│
-├── models/
-│ └── nb_spam_model.pkl # Trained ML model
-│
-├── app.py # Streamlit web app
-├── train.py # Model training script
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-│
-├── .gitignore # Files to ignore in Git
-└── venv/ # Virtual environment (NOT pushed to GitHub)
-
-
----
 
 ## 📊 Dataset
 
